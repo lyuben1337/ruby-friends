@@ -1,0 +1,35 @@
+<div id="<%= dom_id friend %>" class="p-4 border text-white bg-secondary rounded">
+  <h1>
+    <%= friend.first_name + " " + friend.last_name %>
+  </h1>
+
+  <div class="row">
+    <div class="col-md-6">
+      <p>
+        <strong>Email:</strong>
+        <%= friend.email %>
+      </p>
+    </div>
+    <div class="col-md-6">
+      <p>
+        <strong>Phone:</strong>
+        <%= friend.phone %>
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <p>
+        <strong>Birthday:</strong>
+        <%= friend.birthday %>
+      </p>
+    </div>
+    <div class="col-md-6">
+      <p>
+        <strong>Address:</strong>
+        <%= friend.address %>
+      </p>
+    </div>
+  </div>
+</div>
