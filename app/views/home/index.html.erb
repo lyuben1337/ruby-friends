@@ -1,3 +1,12 @@
-<h1>Hello World</h1>
 
-This is my first Rails webpage...
+<div class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">Ruby friends</h1>
+    <p class="lead">Add friends to your list, to not forget theirs important data such as birthday or phone number!</p>
+    <hr class="my-4">
+    <div class="d-flex">
+      <%= link_to "Get Started", new_user_registration_path, class: "btn btn-secondary mr-2" %>
+      <%= link_to "Log in", new_user_session_path, class: "btn btn-outline-secondary" %>
+    </div>
+  </div>
+</div>
